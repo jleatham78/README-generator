@@ -8,7 +8,7 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
     {
         type: 'input',
-        name: 'Project Title',
+        name: 'title',
         message: 'What is the title of your project? (Required)',
         validate: nameInput => {
             if (nameInput) {
@@ -44,19 +44,19 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributions',
+        name: 'contributing',
         message: 'Enter contributions'
     },
     {
         type: 'input',
         name: 'tests',
-        message: 'Enter tests'
+        message: 'What command should you run for tests?'
     },
     {
         type: 'list',
         name: 'license',
         message: 'What license does your project have? (Choose one)',
-        choices: ['MIT', 'Apache', 'GPL']
+        choices: ['MIT', 'Apache', 'GPL', 'none']
     },
     {
         type: 'input',
@@ -70,7 +70,6 @@ const questions = [
                 return false;
             }
         }
-
     },
     {
         type: 'input',
@@ -87,7 +86,6 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions).then((responses) => {
-        console.log(responses);
         writeToFile('README.md', generateMarkdown({...responses}));
         })
 }
