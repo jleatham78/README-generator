@@ -1,9 +1,9 @@
-# Sample project
+# README-generator
   ![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-  ## description
+  ## Description
 
-  as;ldkfjas;ldkfjas;ldkfj
+  README-generator is an app that allows the user to create a quality README by filling out questions in the command line. 
 
   ## Table of Contents
 
@@ -19,11 +19,11 @@
 
   ## Installation
 
-  n/a
+  Run the node index.js file
 
   ## Usage
 
-  
+  n/a
 
   ## license
     
@@ -35,9 +35,9 @@
 
   ## Tests
 
-  as;ldkfjasdf
+  n/a
 
   ## Questions
 
-  If you have questions, you can reach me at sjleatham@msn.com or visit [jleatham78](https://github.com/jleatham78/)
+  If you have questions, you can reach me at janeleleatham01@gmail.com or visit [jleatham78](https://github.com/jleatham78/)
 
