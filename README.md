@@ -1,9 +1,9 @@
-# test
-  
+# Sample project
+  ![GitHub License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
   ## description
 
-  test
+  as;ldkfjas;ldkfjas;ldkfj
 
   ## Table of Contents
 
@@ -11,7 +11,7 @@
 
   *[Usage](#usage)
 
-  
+  *[license](#license)
 
   *[Contributing](#contributing)
 
@@ -19,23 +19,25 @@
 
   ## Installation
 
-  n
+  n/a
 
   ## Usage
 
-  n
-
   
+
+  ## license
+    
+    This project is licensed under MIT license.
 
   ## Contributing
 
-  n
+  n/a
 
   ## Tests
 
-  n
+  as;ldkfjasdf
 
   ## Questions
 
-  If you have questions, you can reach me at test or visit [test](https://github.com/test/)
+  If you have questions, you can reach me at sjleatham@msn.com or visit [jleatham78](https://github.com/jleatham78/)
 
